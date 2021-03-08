@@ -1,0 +1,65 @@
+{
+    "Foods": [
+        {   
+            "picture": "https://happilyunprocessed.com/wp-content/uploads/2018/03/Juicest-Burger-Everfeature.jpg.jpg",
+            "item": "burger",
+            "kcal": 800,
+            "like": 0
+        },
+        {
+            "picture": "https://gimmedelicious.com/wp-content/uploads/2014/03/Cauliflower-Crust-Pizza-1-500x500.jpg",
+            "item": "pizza",
+            "kcal": 1000,
+            "like": 0
+        },
+        {
+            "picture": "https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-001_1-225x225.jpg",
+            "item": "salad",
+            "kcal": 300,
+            "like": 0
+        },
+        {
+            "picture": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Instagram_egg.jpg/220px-Instagram_egg.jpg",
+            "item": "egg",
+            "kcal": 50,
+            "like": 0
+        },
+        {
+            "picture": "https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bananas-218094b-scaled.jpg?quality=90&resize=960%2C872",
+            "item": "Banana",
+            "kcal": 115,
+            "like": 0
+        },
+        {
+            "picture": "https://www.foodiecrush.com/wp-content/uploads/2018/04/Instant-Pot-Oatmeal-foodiecrush.com-020-683x1024-1-500x500.jpg",
+            "item": "Oatmeal",
+            "kcal": 165,
+            "like": 0
+        },
+        {
+            "picture": "https://pyxis.nymag.com/v1/imgs/678/586/e6656ece78692dd02a2da38564875a85d0-28-mcnuggets.2x.rsocial.w600.jpg",
+            "item": "McNuggets",
+            "kcal": 800,
+            "like": 0
+        },
+        {
+            "picture": "https://target.scene7.com/is/image/Target/GUEST_702871d9-7919-422e-8c73-08281da90059?wid=488&hei=488&fmt=pjpeg",
+            "item": "Light Mayonnaise",
+            "kcal": 80,
+            "like": 0
+        },
+        {
+            "picture": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/DE38BC2F-473D-4AC2-9DFC-AF9E51A04568/Derivates/8C97D37C-410B-439F-B412-AC2D81AD7D1F.jpg",
+            "item": "rice",
+            "kcal": 200,
+            "like": 0
+        },
+        {
+            "picture": "https://www.seriouseats.com/2019/06/20190614-yogurt-vicky-wasik-8-1500x1125.jpg",
+            "item": "Yogurt (Nonfat)",
+            "kcal": 48,
+            "like": 0
+        }
+    ]
+}
+

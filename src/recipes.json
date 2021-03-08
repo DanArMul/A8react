@@ -1,0 +1,23 @@
+{
+    "Recipes": [
+        {   
+            "picture": "https://www.seriouseats.com/recipes/images/2015/07/20150702-sous-vide-hamburger-anova-primary-1500x1125.jpg",
+            "item": "Burger",
+            "kcal": 800,
+            "ingredients":"100g Minced Beef, 2 Buns, slice of Lectuce, Cheeese, Butter"
+        },
+        {
+            "picture": "https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg",
+            "item": "Pizza",
+            "kcal": 1000,
+            "ingredients":"100g Pepperoni, Wheat Flour, 200ml of Water, Cheese, Olive Oil, two Tomatoes"
+        },
+        {
+            "picture": "https://www.onceuponachef.com/images/2019/07/Big-Italian-Salad.jpg",
+            "item": "Salad",
+            "kcal": 300,
+            "ingredients":"50g of Tomatoes, 50g of Lettuce, 50g of Cabbaga, 50g of Common Mushrooms, 100ml of Mayonnaise"
+        }
+    ]
+}
+
