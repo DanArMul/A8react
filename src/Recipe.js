@@ -3,8 +3,7 @@ import style from './recipe.module.css';
 import Search from './Search.js';
 
 
-const Recipe = ({title, calories, image,ingredients, url, bookmarked, singRecipe, saveRecipe}) => {
-
+const Recipe = ({title, calories, image,ingredients, url, singRecipe, saveRecipe, onClick}) => {
 
 
 	return(
@@ -18,8 +17,8 @@ const Recipe = ({title, calories, image,ingredients, url, bookmarked, singRecipe
 			</ol>
 			<img className = {style.recipe} src ={image} alt="" />
 			<a href= {url}>Click here to learn how to cook this!</a>
-			<form onClick={() => saveRecipe(singRecipe)} className="saveRecipe-form">
-				<button className = 'saveRecipe-button' type='button'>Save this recipe!</button>
+			<form onClick={() => onClick(singRecipe, Math.round(calories))} className="saveRecipe-form">
+				<button className = 'saveRecipe-button' type='button'>Favorite!</button>
 			</form>
 		</div>
 	);

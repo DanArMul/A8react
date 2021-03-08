@@ -8,7 +8,7 @@ import Add from './Add.js';
 import Recipe from './Recipe.js';
 import Search from './Search.js';
 import Favorites from './Favorites.js';
-import favRec from './favRec.js';
+import Rec from './Rec.js';
 import Facebook from './Facebook.js';
 import { BrowserRouter, Route} from 'react-router-dom';
 
@@ -25,7 +25,7 @@ ReactDOM.render(
     <Route path='/Recipe' component={Recipe}></Route>
     <Route path='/Search' component={Search}></Route>
     <Route path='/Favorites' component={Favorites}></Route>
-    <Route path='/favRec' component={favRec}></Route>
+    <Route path='/Rec' component={Rec}></Route>
   </div>
 </BrowserRouter>,
   document.getElementById('root')

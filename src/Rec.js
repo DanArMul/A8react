@@ -4,11 +4,11 @@ import Search from './Search.js';
 import Favorites from './Favorites.js';
 
 
-const favRec = ({title, calories, image,ingredients, url}) => {
+const Rec = ({title, calories, image,ingredients, url}) => {
 
 
-	console.log(title);
-	
+	//console.log(title);
+
 	return(
 		<div className={style.recipe}>
 			<h1>{title}</h1>
@@ -24,4 +24,4 @@ const favRec = ({title, calories, image,ingredients, url}) => {
 	);
 };
 
-export default favRec;
+export default Rec;
