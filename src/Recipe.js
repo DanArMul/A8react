@@ -15,8 +15,8 @@ const Recipe = ({title, calories, image,ingredients, url, singRecipe, saveRecipe
 				<li>{ingredient.text}</li>
 			))}
 			</ol>
-			<img className = {style.recipe} src ={image} alt="" />
-			<a href= {url}>Click here to learn how to cook this!</a>
+			<img className = {style.image} src ={image} alt="" />
+			<a className = {style.hl} href= {url}>Click here to learn how to cook this!</a>
 			<form onClick={() => onClick(singRecipe, Math.round(calories))} className="saveRecipe-form">
 				<button className = 'saveRecipe-button' type='button'>Favorite!</button>
 			</form>

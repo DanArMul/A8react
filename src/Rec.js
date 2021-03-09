@@ -10,7 +10,7 @@ const Rec = ({title, calories, image,ingredients, url}) => {
 	//console.log(title);
 
 	return(
-		<div className={style.recipe}>
+		<div className={style.recipeFav}>
 			<h1>{title}</h1>
 			<h2>Calories: {Math.round(calories)}</h2>
 			<h2>Ingredients:</h2>
@@ -18,8 +18,8 @@ const Rec = ({title, calories, image,ingredients, url}) => {
 				<li>{ingredient.text}</li>
 			))}
 			</ol>
-			<img className = {style.recipe} src ={image} alt="" />
-			<a href= {url}>Click here to learn how to cook this!</a>
+			<img className = {style.image} src ={image} alt="" />
+			<a className = {style.hl} href= {url}>Click here to learn how to cook this!</a>
 		</div>
 	);
 };

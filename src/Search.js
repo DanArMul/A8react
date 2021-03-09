@@ -90,9 +90,9 @@ const Search = () => {
 				<input className = "search-bar" type='text' value={search} onChange={updateSearch} />
 				<button className = 'search-button' type='submit'>Search for recipe!</button>
 			</form>
-			<form onClick={setNewMAX} className="maxCAL-form">
-				<input  className = "maxCAL-bar" type='number' value= {MAX_CAL}/>
-				<button className = 'maxCAL-button' type= "button">Max Calories!</button>
+			<form className="maxCAL-form">
+				<h4>Enter maximum calories: </h4>
+				<input  className = "maxCAL-bar" type='number' value= {MAX_CAL} onChange={setNewMAX}/>
 			</form>
 			<div className = "recipes">
 				{recipes.map(recipe => (
