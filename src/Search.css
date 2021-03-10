@@ -29,7 +29,7 @@ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 	padding-bottom: 50px;
 }
 
-.saveRecipe-button{
+.find-button{
 		display: inline-block;
 		cursor: pointer;
 		text-decoration: none;
@@ -44,15 +44,12 @@ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 		outline-offset: -2px;
 		transition: outline-offset 250ms ease;
 		line-height: 1;
+		margin: 20px 0px;
 }
 
 
 
-.saveRecipe-button:hover,
-.saveRecipe-button:focus {
+.find-button:hover,
+.find-button:focus {
 		outline-offset: 2px;
-}
-
-.maxCAL-form{
-	place-items: center;
 }

@@ -3,6 +3,7 @@ import Recipe from './Recipe.js';
 import './Search.css';
 import Favorites from './Favorites.js';
 import Rec from './Rec.js';
+import { Link } from 'react-router-dom';
 
 //
 
@@ -120,6 +121,7 @@ const Search = () => {
 				updateCal = {updateCal}
 				/>
 			</div>
+			
 		</div>
 		);
 	}

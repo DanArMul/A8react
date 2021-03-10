@@ -1,0 +1,33 @@
+.asker{
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.saveRecipe-button{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+    background:none;
+    border: 0;
+    padding: 0.5em 1.5em;
+    border-radius: 30px;
+    color: #386397;
+    outline: 2px solid #386397;
+    border: 2px solid #386397;
+    outline-offset: -2px;
+    transition: outline-offset 250ms ease;
+    line-height: 1;
+}
+
+
+
+.saveRecipe-button:hover,
+.saveRecipe-button:focus {
+    outline-offset: 2px;
+}

@@ -10,24 +10,26 @@ import Search from './Search.js';
 import Favorites from './Favorites.js';
 import Rec from './Rec.js';
 import Facebook from './Facebook.js';
-import { BrowserRouter, Route} from 'react-router-dom';
+import Nav from './Nav.js';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 ReactDOM.render(
   // <React.StrictMode>
   //   <Add />
   // </React.StrictMode>,
-  <BrowserRouter>
-  <div>
-    <Route path='/Main' component={Main}></Route>
-    <Route path='/' exact component={LogIn}></Route>
-    <Route path='/Detail' component={Detail}></Route>
-    <Route path='/Add' component={Add}></Route>
-    <Route path='/Recipe' component={Recipe}></Route>
-    <Route path='/Search' component={Search}></Route>
-    <Route path='/Favorites' component={Favorites}></Route>
-    <Route path='/Rec' component={Rec}></Route>
-  </div>
-</BrowserRouter>,
+  <Router>
+    <div>
+      <Nav />
+      <Route path='/Main' component={Main}></Route>
+      <Route path='/' exact component={LogIn}></Route>
+      <Route path='/Detail' component={Detail}></Route>
+      <Route path='/Add' component={Add}></Route>
+      <Route path='/Recipe' component={Recipe}></Route>
+      <Route path='/Search' component={Search}></Route>
+      <Route path='/Favorites' component={Favorites}></Route>
+      <Route path='/Rec' component={Rec}></Route>
+    </div>
+</Router>,
   document.getElementById('root')
 );
 
