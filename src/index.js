@@ -11,6 +11,9 @@ import Favorites from './Favorites.js';
 import Rec from './Rec.js';
 import Facebook from './Facebook.js';
 import Nav from './Nav.js';
+import Ingredients from './Ingredients.js';
+import Ingr from './Ingr.js';
+import Ingretext from './Ingretext.js';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 ReactDOM.render(
@@ -28,6 +31,9 @@ ReactDOM.render(
       <Route path='/Search' component={Search}></Route>
       <Route path='/Favorites' component={Favorites}></Route>
       <Route path='/Rec' component={Rec}></Route>
+      <Route path='/Ingredients' component={Ingredients}></Route>
+      <Route path='/Ingr' component={Ingr}></Route>
+      <Route path='/Ingretext' component={Ingretext}></Route>
     </div>
 </Router>,
   document.getElementById('root')
