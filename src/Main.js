@@ -1,4 +1,4 @@
-    import React, {Component, useState} from 'react';
+import React, {Component, useState} from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Card, Descriptions, Statistic, Progress, Row, Col } from 'antd';
 import './main.css';
@@ -75,7 +75,7 @@ class Main extends Component{
         return (
             
             <div className="main">
-                <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}} >
+                <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}} >
                 <div className= "asker">
                     <form className="weight-form">
                         <h4>Enter weight (in Kgs): </h4>
@@ -95,7 +95,7 @@ class Main extends Component{
                     
                 </div>
                 </Card>
-                <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}} >
+                <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}} >
                     <Descriptions title="Weight (in Kgs)" >
                         <Descriptions.Item><Statistic title = "Now" value ={this.state.weight}></Statistic></Descriptions.Item>
                         <Descriptions.Item><Statistic title = "Already Lose" value = {this.state.lost}></Statistic></Descriptions.Item>
