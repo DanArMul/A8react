@@ -11,7 +11,7 @@ const Ingretext = (foodText) => {
 
 	return(
 		<div className={style.shoppingtext}>
-			<li>{foodText.text}</li>
+			<li className={style.shoppingtextlisted} >{foodText.text}</li>
 		</div>
 	);
 };

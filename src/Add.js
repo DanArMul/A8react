@@ -3,8 +3,9 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Input, Card, Tabs,  Row, Col, Button, notification} from 'antd';
 import {HeartOutlined, HeartFilled} from '@ant-design/icons';
 import data from "./data.json";
-import FoodContext from './foodContext'
-import Detail from './Detail'
+import FoodContext from './foodContext';
+import Detail from './Detail';
+import './main.css';
 
 class Add extends Component{
 
@@ -49,12 +50,13 @@ class Add extends Component{
 
     render(){
         return(
+            <div className = 'add'>
             <FoodContext.Provider value={this.state.sendItem} >
             <div>
 
                 <Detail></Detail>
 
-               <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}}>
+               <Card style={{margin:80, display:'flex', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}}>
                <div><Search placeholder="input search text"  onSearch={this.handleSearch.bind(this)} style={{ width: 750 }} /></div>
                <Tabs defaultActiveKey="1" centered>
                 <TabPane tab="Recent add" key="1">
@@ -111,6 +113,7 @@ class Add extends Component{
                 </Card>
             </div>
             </FoodContext.Provider>
+            </div>
         )
     }
 }

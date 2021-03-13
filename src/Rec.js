@@ -11,7 +11,7 @@ const Rec = ({title, calories, image,ingredients, url}) => {
 
 	return(
 		<div className={style.recipeFav}>
-			<h1>{title}</h1>
+			<div className={style.recipeFavTitle}>{title}</div>
 			<h2>Calories: {Math.round(calories)}</h2>
 			<h2>Ingredients:</h2>
 			<ol>{ingredients.map(ingredient =>(

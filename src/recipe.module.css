@@ -12,9 +12,10 @@
 }
 
 .image{
+	display: flex;
 	border-radius: 30%;
-	width:400px;
-	height: 400px;
+	width: auto;
+	height: auto;
 }
 
 .hl{
@@ -61,11 +62,28 @@
 
 .shoppingtext{
 	font-size: medium;
+	display: flex;
+	
 }
 
 .shoppingListTag{
+	display: flex;
 	margin: 200px 0px;
 	align-items: center;
 	text-align: center;
 	font-size: xxx-large;
+}
+
+.recipeFavTitle{
+	text-align: center;
+	font-size: xx-large;
+	font-style: italic, oblique;
+	display: flex;
+	margin: 100px 0px;
+}
+
+.shoppingtextlisted{
+	text-align: center;
+	align-items: center;
+	display: flex;
 }
