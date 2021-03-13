@@ -14,7 +14,7 @@ class Detail extends Component{
         return(
             <div>
             <a href ='./Main'>  Back </a>
-            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}} >
+            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}} >
                 <Row align="middle" >
                     <Col span = {8}><Statistic style={{ marginLeft: 30 }} title = "Consumed" value ={60.5}></Statistic></Col>
                     <Col span = {8}>
@@ -25,7 +25,7 @@ class Detail extends Component{
                 </Row>
             </Card>
 
-            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}}>
+            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}}>
             <Table pagination = {false} columns={columnsB} dataSource={dataB} size="small" />
             <FoodContext.Consumer>
               {
@@ -52,7 +52,7 @@ class Detail extends Component{
             <Table pagination = {false} columns={columnsE} dataSource={dataE} size="small" />
             </Card>
 
-            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}}>
+            <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}}>
                 <Row align="middle">
                     <Col span = {4}><Button href='./Add'>+ Breakfast</Button></Col>
                     <Col span = {5}><Button href='./Add'>+ Lunch</Button></Col>

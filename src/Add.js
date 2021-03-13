@@ -56,8 +56,8 @@ class Add extends Component{
 
                 <Detail></Detail>
 
-               <Card style={{margin:80, display:'flex', marginLeft:'auto', marginRight:'auto', width:800, background:'#f5f5f5', borderRadius:'20px'}}>
-               <div><Search placeholder="input search text"  onSearch={this.handleSearch.bind(this)} style={{ width: 750 }} /></div>
+               <Card style={{margin:80, display:'block', marginLeft:'auto', marginRight:'auto', width:'90%', background:'#f5f5f5', borderRadius:'20px'}}>
+               <div><Search placeholder="input search text"  onSearch={this.handleSearch.bind(this)} style={{ width: '90%' }} /></div>
                <Tabs defaultActiveKey="1" centered>
                 <TabPane tab="Recent add" key="1">
                     <div>{

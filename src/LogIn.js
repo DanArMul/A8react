@@ -1,3 +1,4 @@
+// page setting
 import React, {Component} from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Form, Input, Button} from 'antd';
@@ -26,8 +27,8 @@ class LogIn extends Component{
       }else{
 
         return (
-          <div>
-        <div style={{paddingTop:200}}>
+          <div style={{width: '90%'}}>
+        <div style={{paddingTop:200, paddingLeft:10}}>
             <h1 style={{textAlign:'center'}}>Go Go Diet</h1>
             <Form
             {...layout}
